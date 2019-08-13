@@ -1,6 +1,6 @@
 #!/usr/bin/env php
 <?php
-include "src/Dates/BirthDays.php";
+include 'src/Dates/BirthDays.php';
 $birthDate = "1983-05-19";
 $days = new \Igor\Dates\BirthDays($birthDate);
 $totalDays = $days->findTotalDays();
